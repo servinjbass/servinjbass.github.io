@@ -1,14 +1,14 @@
 body {
   background-color: rgb(22, 27, 24);
-  position:relative
-  align-content: center;
+  position:relative;
   vertical-align: center;
 }
 
 iframe {
-  aspect-ratio: 4/3;
   padding: 20px;
   width: 100%;
+  aspect-ratio: 15.2/9;
+  height: auto;
 }
 
 a, h2 {
@@ -45,15 +45,26 @@ a, h2 {
   height: inherit;
 }
 
+.myHead {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  
+}
+
 #myWrap {
+  width: 100%;
   margin: 20px;
   padding: 20px;
   background-color: rgb(41, 42, 45);
   border-radius: 15px;
   color: white;
-  align-content: center;
+  text-align: center;
 }
  
+.myHead h1 {
+  color: white;
+}
 @media (min-width: 890px) {
   iframe {
     width: 100%;
