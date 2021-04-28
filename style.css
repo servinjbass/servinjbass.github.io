@@ -1,6 +1,6 @@
 body {
   display: inline-block;
-  position: relative;
+  position: absolute;
   float: left;
   padding: 20px;
   align-content: center;
@@ -15,9 +15,8 @@ body {
 
 iframe {
   aspect-ratio: 4/3;
-  width: 100%;
   padding: 20px;
-  max-width: 500px;
+  max-width: 100%;
   min-width: 300px;
 }
 
