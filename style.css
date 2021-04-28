@@ -1,14 +1,18 @@
 body {
   background-color: rgb(22, 27, 24);
-  position:relative;
+  position: relative;
   vertical-align: center;
+  width: 100%;
+  align-content: center;
+}
+
+nav {
+  width='100%';
 }
 
 iframe {
-  padding: 20px;
-  width: 100%;
+  margin: 20px;
   aspect-ratio: 15.2/9;
-  height: auto;
 }
 
 a, h2 {
@@ -20,17 +24,19 @@ a, h2 {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
+  width: 100%;
+  padding:20px;
 }
 
 .bio p {
   align-items: baseline;
   color:white;
-  padding: 20px;
+  margin: 20px;
   text-align: justify;
 }
 
 .bio div {
-  align-content: center;
+  align-content: stretch;
   vertical-align: baseline;
 }
 
@@ -61,25 +67,28 @@ a, h2 {
   color: white;
   text-align: center;
 }
+
+#profile {
+  margin-right: 20px;
+  height: 50px;
+}
  
 .myHead h1 {
   color: white;
 }
+
 @media (min-width: 890px) {
   iframe {
-    width: 100%;
+    width: 445px;
   }
 
   p {
     text-align: left;
   }
 
-  div.spacer {
-    height:inherit;
-  }
-
   .bio {
     grid-template-columns: 50% 50%;
-    grid-template-rows:auto auto;
+    grid-template-rows: auto auto;
   }
+
 }
