@@ -12,13 +12,6 @@ iframe {
   width: 100%;
 }
 
-p {
-  align-items: baseline;
-  color:white;
-  padding: 20px;
-  text-align: justify;
-}
-
 p a {
   color:royalblue;
   text-decoration: none;
@@ -34,6 +27,13 @@ p a {
   border-radius: 15px;
 }
 
+.bio p {
+  align-items: baseline;
+  color:white;
+  padding: 20px;
+  text-align: justify;
+}
+
 .bio div {
   align-content: center;
   vertical-align: baseline;
@@ -42,6 +42,12 @@ p a {
 .card-group {
   padding: 20px;
   margin: 20px;
+}
+
+.card img {
+  aspect-ratio: 4/3;
+  width:100%;
+  height: inherit;
 }
  
 @media (min-width: 890px) {
