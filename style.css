@@ -6,18 +6,13 @@ body {
   align-content: center;
 }
 
-/* nav {
-  width='100%';
-} */
-
 iframe {
-  width: 100%;
   aspect-ratio: 16/9;
+  width: 100%;
   top: 20px;
   left: 20px;
   bottom: 20px;
   right: 20px;
-  height: 100%;
 }
 
 a, h2 {
@@ -29,15 +24,7 @@ a, h2 {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  column-gap: 20px;
   padding: 20px;
-}
-
-.bio p {
-  align-items: baseline;
-  color:white;
-  margin: 20px;
-  text-align: justify;
 }
 
 .card-group {
@@ -57,8 +44,13 @@ a, h2 {
   text-align: center;
 }
 
+#bioText {
+  color:white;
+  text-align: justify;
+  margin-right: 40px;
+}
+
 #myWrap {
-  width: 100%;
   margin: 20px;
   padding: 20px;
   background-color: rgb(41, 42, 45);
@@ -68,12 +60,7 @@ a, h2 {
 }
 
 #profile {
-  margin-right: 20px;
-  height: 50px;
-}
- 
-#tuber {
-  margin-right: 20px !important;
+  height: 40px;
 }
 
 .myHead h1 {
