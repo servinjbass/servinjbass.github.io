@@ -13,6 +13,7 @@ iframe {
   left: 20px;
   bottom: 20px;
   right: 20px;
+  border-radius: 20px;
 }
 
 a, h2 {
@@ -29,25 +30,28 @@ a, h2 {
 
 .card-group {
   padding: 20px;
-  margin: 20px;
+  margin: 5px 20px 20px 20px;
+  max-height: 400px;
 }
 
 .card img {
+  width: 100%;
   aspect-ratio: 4/3;
-  width:100%;
-  height: inherit;
+  align-self: center;
 }
 
 .myHead {
+  margin-top: 15px;
   width: 100%;
-  padding: 20px;
   text-align: center;
+  color: white;
 }
 
 #bioText {
-  color:white;
+  color: black;
   text-align: justify;
   margin-right: 40px;
+  z-index: 10;
 }
 
 #myWrap {
@@ -60,21 +64,21 @@ a, h2 {
 }
 
 #profile {
-  height: 40px;
-}
-
-.myHead h1 {
-  color: white;
+  background-image: url(Profile.jpg);
+  opacity: 70%;
+  margin-right: 20px !important;
+  padding: 20px;
+  background-size: 100% 100%;
+  border-radius: 20px;
 }
 
 @media (min-width: 890px) {
-  p {
-    text-align: left;
-  }
-
   .bio {
     grid-template-columns: 50% 50% !important;
     grid-template-rows: auto auto;
   }
 
+  #bioText {
+    width: 100%;
+  }
 }
