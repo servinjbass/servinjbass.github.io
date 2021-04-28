@@ -12,7 +12,8 @@ nav {
 
 iframe {
   margin: 20px;
-  aspect-ratio: 15.2/9;
+  width: 100% !important;
+  aspect-ratio: 16/9;
 }
 
 a, h2 {
@@ -25,7 +26,6 @@ a, h2 {
   grid-template-columns: auto;
   grid-template-rows: auto;
   width: 100%;
-  padding:20px;
 }
 
 .bio p {
@@ -33,11 +33,6 @@ a, h2 {
   color:white;
   margin: 20px;
   text-align: justify;
-}
-
-.bio div {
-  align-content: stretch;
-  vertical-align: baseline;
 }
 
 .card-group {
@@ -55,7 +50,6 @@ a, h2 {
   width: 100%;
   padding: 20px;
   text-align: center;
-  
 }
 
 #myWrap {
@@ -78,10 +72,6 @@ a, h2 {
 }
 
 @media (min-width: 890px) {
-  iframe {
-    width: 445px;
-  }
-
   p {
     text-align: left;
   }
